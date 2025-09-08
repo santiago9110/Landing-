@@ -1,0 +1,11 @@
+.contact{padding:calc(var(--space)*6) 0;background:var(--surface);}
+.title{text-align:center;margin:0 0 calc(var(--space)*4);}
+.grid{display:grid;gap:calc(var(--space)*4);}
+@media(min-width:768px){.grid{grid-template-columns:2fr 1fr;}}
+.form{display:flex;flex-direction:column;gap:var(--space);}
+input,textarea{padding:calc(var(--space)*1.5);border:1px solid var(--border);border-radius:var(--radius);font:inherit;}
+.submit{background:var(--blue-600);color:var(--white);border:none;padding:calc(var(--space)*1.5);border-radius:var(--radius);cursor:pointer;}
+.submit:hover{background:var(--blue-700);}
+.aside{background:var(--white);padding:calc(var(--space)*3);border-radius:var(--radius);box-shadow:var(--shadow-card);display:flex;flex-direction:column;gap:var(--space);justify-content:center;}
+.whatsapp{color:var(--blue-600);}
+input:focus-visible,textarea:focus-visible,.submit:focus-visible,.whatsapp:focus-visible{outline:2px solid var(--blue-600);box-shadow:0 0 0 4px var(--focus-ring);}

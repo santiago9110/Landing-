@@ -1,0 +1,7 @@
+.testimonials{padding:calc(var(--space)*6) 0;}
+.title{text-align:center;margin:0 0 calc(var(--space)*4);}
+.grid{display:grid;gap:calc(var(--space)*2);}
+@media(min-width:768px){.grid{grid-template-columns:repeat(2,1fr);}}
+.card{background:var(--white);padding:calc(var(--space)*3);border-radius:var(--radius);box-shadow:var(--shadow-card);}
+.text{margin:0 0 var(--space);}
+.author{margin:0;font-weight:600;}

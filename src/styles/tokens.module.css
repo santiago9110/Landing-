@@ -1,0 +1,16 @@
+:root {
+  --blue-600:#1B68FF;
+  --blue-700:#1552CC;
+  --navy:#0B2E6B;
+  --white:#FFFFFF;
+  --surface:#F7F9FC;
+
+  --text-primary:#0F172A;
+  --text-secondary:#475569;
+  --border:#E2E8F0;
+  --focus-ring:rgba(27,104,255,.35);
+
+  --radius:16px;
+  --shadow-card:0 6px 24px rgba(0,0,0,.06);
+  --space:8px;
+}

@@ -1,0 +1,7 @@
+.services{padding:calc(var(--space)*6) 0;background:var(--surface);}
+.title{text-align:center;margin:0 0 calc(var(--space)*4);}
+.grid{display:grid;gap:calc(var(--space)*2);}
+@media(min-width:768px){.grid{grid-template-columns:repeat(4,1fr);}}
+.card{background:var(--white);padding:calc(var(--space)*3);border-radius:var(--radius);box-shadow:var(--shadow-card);}
+.cardTitle{margin:0 0 var(--space);font-size:1.125rem;}
+.cardText{margin:0;color:var(--text-secondary);}

@@ -1,0 +1,14 @@
+.navbar{
+  background:var(--white);
+  border-bottom:1px solid var(--border);
+}
+.inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:calc(var(--space)*2) 0;
+}
+.logo{
+  font-weight:700;
+  color:var(--navy);
+}
